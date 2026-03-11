@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/Imagenes">
+        <file>Recursos/Imagenes/Logo-oca.png</file>
+        <file>Recursos/Imagenes/logo-fcyt.png</file>
+        <file>Recursos/Imagenes/dado1.png</file>
+        <file>Recursos/Imagenes/dado2.png</file>
+        <file>Recursos/Imagenes/dado3.png</file>
+        <file>Recursos/Imagenes/dado4.png</file>
+        <file>Recursos/Imagenes/dado5.png</file>
+        <file>Recursos/Imagenes/dado6.png</file>
+        <file>Recursos/Imagenes/Casillas/calavera.png</file>
+        <file>Recursos/Imagenes/Casillas/oca.png</file>
+        <file>Recursos/Imagenes/Casillas/carcel.png</file>
+        <file>Recursos/Imagenes/Casillas/laberinto.png</file>
+        <file>Recursos/Imagenes/Casillas/pozo.png</file>
+        <file>Recursos/Imagenes/Casillas/puente.png</file>
+        <file>Recursos/Imagenes/Casillas/posada.png</file>
+        <file>Recursos/Imagenes/oca-default.png</file>
+        <file>Recursos/Imagenes/cancelado.png</file>
+    </qresource>
+    <qresource prefix="/Sonidos">
+        <file>Recursos/Sonidos/BotonesMenu.WAV</file>
+        <file>Recursos/Sonidos/sonidoDado.wav</file>
+        <file>Recursos/Sonidos/musicaPartida.wav</file>
+        <file>Recursos/Sonidos/sonidoFichas.wav</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>

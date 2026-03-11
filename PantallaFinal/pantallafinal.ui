@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PantallaFinal</class>
+ <widget class="QWidget" name="PantallaFinal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>887</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1920</width>
+    <height>1080</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="spacing">
+       <number>10</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>40</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>20</number>
+      </property>
+      <item alignment="Qt::AlignmentFlag::AlignHCenter">
+       <widget class="QLabel" name="label">
+        <property name="maximumSize">
+         <size>
+          <width>10000</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>JetBrainsMono Nerd Font</family>
+          <pointsize>24</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Fin de la partida</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignmentFlag::AlignHCenter">
+       <widget class="QWidget" name="widget_2" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>650</width>
+          <height>450</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>1920</width>
+          <height>650</height>
+         </size>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QTableWidget" name="tabla"/>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignmentFlag::AlignHCenter">
+       <widget class="QWidget" name="widget_3" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>650</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>1920</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item alignment="Qt::AlignmentFlag::AlignLeft">
+          <widget class="QPushButton" name="btnJugarDenuevo">
+           <property name="minimumSize">
+            <size>
+             <width>250</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>300</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>JetBrainsMono Nerd Font</family>
+             <pointsize>-1</pointsize>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    border: none;           
+	background-color: qlineargradient(spread:pad, x1:0.542, y1:0.556818, x2:0.425, y2:0.431818, stop:0 rgb(255, 152, 7), stop:1 rgb(255, 110, 7));	
+	font-size: 18px;
+color: white;
+border-radius: 8px;
+padding: 10px;
+}
+
+QPushButton:hover {
+	border: 5px solid rgb(255, 152, 7);
+}
+
+QPushButton:pressed {
+border: 7px solid rgb(255, 152, 7);
+}
+
+QPushButton:disabled {
+        background-color: #A5A5A5; 
+        color: #EEEEEE;
+    }</string>
+           </property>
+           <property name="text">
+            <string>Volver a jugar</string>
+           </property>
+          </widget>
+         </item>
+         <item alignment="Qt::AlignmentFlag::AlignRight">
+          <widget class="QPushButton" name="btnVolverAlMenu">
+           <property name="minimumSize">
+            <size>
+             <width>250</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>300</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>JetBrainsMono Nerd Font</family>
+             <pointsize>-1</pointsize>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    border: none;           
+	background-color: qlineargradient(spread:pad, x1:0.542, y1:0.556818, x2:0.425, y2:0.431818, stop:0 rgb(255, 152, 7), stop:1 rgb(255, 110, 7));	
+	font-size: 18px;
+color: white;
+border-radius: 8px;
+padding: 10px;
+}
+
+QPushButton:hover {
+	border: 5px solid rgb(255, 152, 7);
+}
+
+QPushButton:pressed {
+border: 7px solid rgb(255, 152, 7);
+}
+
+QPushButton:disabled {
+        background-color: #A5A5A5; 
+        color: #EEEEEE;
+    }</string>
+           </property>
+           <property name="text">
+            <string>Menu</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

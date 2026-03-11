@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PantallaMenu</class>
+ <widget class="QWidget" name="PantallaMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1271</width>
+    <height>1037</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1920</width>
+    <height>1080</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="fondo" native="true">
+     <property name="maximumSize">
+      <size>
+       <width>1920</width>
+       <height>1080</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#fondo {
+background-color: qlineargradient(spread:pad, x1:0.134, y1:0.221955, x2:0.77095, y2:0.773, stop:0 rgba(112, 194, 203, 255), stop:1 rgba(231, 198, 255, 255))
+/*background-image: url(:/Recursos/Imagenes/fondo-gif.gif) */
+}
+
+</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item alignment="Qt::AlignmentFlag::AlignHCenter">
+       <widget class="QStackedWidget" name="stackMenus">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>600</width>
+          <height>300</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>1920</width>
+          <height>800</height>
+         </size>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="principal">
+         <property name="maximumSize">
+          <size>
+           <width>1800</width>
+           <height>1080</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    border: none;           
+	background-color: qlineargradient(spread:pad, x1:0.542, y1:0.556818, x2:0.425, y2:0.431818, stop:0 rgba(67, 170, 255, 255), stop:1 rgba(0, 122, 213, 255));	
+	font-size: 24px;
+color: white;
+border-radius: 8px;
+}
+
+QPushButton:hover {
+	border: 5px solid rgb(55, 125, 255);
+}
+
+QPushButton:pressed {
+border: 7px solid rgb(55, 125, 255);
+}
+</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <property name="spacing">
+           <number>40</number>
+          </property>
+          <property name="sizeConstraint">
+           <enum>QLayout::SizeConstraint::SetDefaultConstraint</enum>
+          </property>
+          <property name="leftMargin">
+           <number>40</number>
+          </property>
+          <property name="topMargin">
+           <number>40</number>
+          </property>
+          <property name="rightMargin">
+           <number>40</number>
+          </property>
+          <property name="bottomMargin">
+           <number>40</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="imgLogo">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>1800</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap resource="../Recursos.qrc">:/Imagenes/Recursos/Imagenes/Logo-oca.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btnJugar">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>50</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>400</width>
+              <height>75</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>1800</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Ubuntu Nerd Font</family>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="text">
+             <string>Jugar</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btnCargarPartida">
+            <property name="minimumSize">
+             <size>
+              <width>400</width>
+              <height>75</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>1800</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Ubuntu Nerd Font</family>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton:disabled {
+        background-color: #A5A5A5; 
+        color: #EEEEEE;
+    }</string>
+            </property>
+            <property name="text">
+             <string>Cargar Partida</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btnOpciones">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>50</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>400</width>
+              <height>75</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>1800</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+              <underline>false</underline>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="text">
+             <string>Opciones</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btnCreditos">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>50</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>400</width>
+              <height>75</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>1800</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="text">
+             <string>Creditos</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="opcionesSonido">
+         <layout class="QVBoxLayout" name="verticalLayout_6">
+          <item>
+           <spacer name="horizontalSpacer_4">
+            <property name="orientation">
+             <enum>Qt::Orientation::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_5">
+            <property name="orientation">
+             <enum>Qt::Orientation::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item alignment="Qt::AlignmentFlag::AlignHCenter">
+           <widget class="QLabel" name="label_2">
+            <property name="maximumSize">
+             <size>
+              <width>300</width>
+              <height>400</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Ubuntu Nerd Font</family>
+              <pointsize>24</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Musica</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignmentFlag::AlignHCenter">
+           <widget class="QSlider" name="musicaSlider">
+            <property name="minimumSize">
+             <size>
+              <width>400</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>500</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="cursor">
+             <cursorShape>ClosedHandCursor</cursorShape>
+            </property>
+            <property name="maximum">
+             <number>100</number>
+            </property>
+            <property name="sliderPosition">
+             <number>100</number>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Orientation::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignmentFlag::AlignHCenter">
+           <widget class="QLabel" name="labelMusicaPorc">
+            <property name="font">
+             <font>
+              <family>Ubuntu Nerd Font</family>
+              <pointsize>14</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>100%</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Orientation::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Orientation::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Orientation::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item alignment="Qt::AlignmentFlag::AlignHCenter">
+           <widget class="QLabel" name="label">
+            <property name="maximumSize">
+             <size>
+              <width>300</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Ubuntu Nerd Font</family>
+              <pointsize>23</pointsize>
+              <bold>true</bold>
+              <underline>false</underline>
+             </font>
+            </property>
+            <property name="text">
+             <string>Efectos de sonidos</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignmentFlag::AlignHCenter">
+           <widget class="QSlider" name="sonidoSlider">
+            <property name="minimumSize">
+             <size>
+              <width>400</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>500</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="cursor">
+             <cursorShape>ClosedHandCursor</cursorShape>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LayoutDirection::LeftToRight</enum>
+            </property>
+            <property name="maximum">
+             <number>100</number>
+            </property>
+            <property name="sliderPosition">
+             <number>100</number>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Orientation::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignmentFlag::AlignHCenter">
+           <widget class="QLabel" name="labelSonidoPorc">
+            <property name="font">
+             <font>
+              <family>Ubuntu Nerd Font</family>
+              <pointsize>14</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>100%</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QStackedWidget" name="stackBtnModo">
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    border: none;           
+	background-color: qlineargradient(spread:pad, x1:0.542, y1:0.556818, x2:0.425, y2:0.431818, stop:0 rgba(67, 170, 255, 255), stop:1 rgba(0, 122, 213, 255));	
+	font-size: 24px;
+color: white;
+border-radius: 8px;
+}
+
+QPushButton:hover {
+	border: 5px solid rgb(55, 125, 255);
+}
+
+QPushButton:pressed {
+border: 7px solid rgb(55, 125, 255);
+}
+</string>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <widget class="QWidget" name="modoVentana">
+             <layout class="QVBoxLayout" name="verticalLayout_7">
+              <item alignment="Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignVCenter">
+               <widget class="QPushButton" name="btnModoVentana">
+                <property name="minimumSize">
+                 <size>
+                  <width>350</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>400</width>
+                  <height>75</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Ubuntu Nerd Font</family>
+                  <pointsize>-1</pointsize>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="text">
+                 <string>Activar modo ventana</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="modoPantallaCompleta">
+             <layout class="QVBoxLayout" name="verticalLayout_8">
+              <item alignment="Qt::AlignmentFlag::AlignHCenter">
+               <widget class="QPushButton" name="btnPantallaCompleta">
+                <property name="minimumSize">
+                 <size>
+                  <width>350</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>400</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Ubuntu Nerd Font</family>
+                  <pointsize>-1</pointsize>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Activar pantalla completa</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Orientation::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="pageCreditos">
+         <layout class="QVBoxLayout" name="verticalLayout_9">
+          <item alignment="Qt::AlignmentFlag::AlignHCenter">
+           <widget class="QLabel" name="label_3">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>460</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>
+
+
+Trabajo Práctico de Programación Orientada a Objetos
+Facultad de ciencia y tecnologia
+
+
+Desarrollador: Facundo Rodriguez
+Profesores: Leonardo Brambilla, Emanuel Goette</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignmentFlag::AlignHCenter">
+           <widget class="QLabel" name="label_4">
+            <property name="minimumSize">
+             <size>
+              <width>60</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>350</width>
+              <height>350</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap resource="../Recursos.qrc">:/Imagenes/Recursos/Imagenes/logo-fcyt.png</pixmap>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Ubuntu Nerd Font</family>
+              <pointsize>16</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>¡Gracias por jugar!</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignmentFlag::AlignRight">
+       <widget class="QStackedWidget" name="stackBtnOpciones">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>320</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>800</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="pageBtnSalir">
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item alignment="Qt::AlignmentFlag::AlignHCenter">
+           <widget class="QPushButton" name="btnSalir">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>50</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>250</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>400</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Ubuntu Nerd Font</family>
+              <pointsize>-1</pointsize>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+   border: none;           
+	background-color: qlineargradient(spread:pad, x1:0.542, y1:0.556818, x2:0.425, y2:0.431818, stop:0 rgb(255, 64, 67), stop:1 rgb(255, 17, 0));	
+font-size: 24px;
+color: white;
+border-radius: 8px;
+}
+
+QPushButton:hover {
+    border: 5px solid black
+}
+
+QPushButton:pressed {
+    border: 7px solid black;
+}</string>
+            </property>
+            <property name="text">
+             <string>Salir</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="widget_2"/>
+        <widget class="QWidget" name="pageBtnVolver">
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item alignment="Qt::AlignmentFlag::AlignHCenter">
+           <widget class="QPushButton" name="btnVolver">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>250</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>400</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Ubuntu Nerd Font</family>
+              <pointsize>-1</pointsize>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    border: none;           
+	background-color: qlineargradient(spread:pad, x1:0.542, y1:0.556818, x2:0.425, y2:0.431818, stop:0 rgb(255, 152, 7), stop:1 rgb(255, 110, 7));	
+	font-size: 24px;
+color: white;
+border-radius: 8px;
+}
+
+QPushButton:hover {
+	border: 5px solid rgb(255, 152, 7);
+}
+
+QPushButton:pressed {
+border: 7px solid rgb(255, 152, 7);
+}</string>
+            </property>
+            <property name="text">
+             <string>Volver</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../Recursos.qrc"/>
+ </resources>
+ <connections/>
+</ui>
