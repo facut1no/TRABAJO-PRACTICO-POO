@@ -49,7 +49,7 @@ A modo de resumen rápido:
 
 1. Clonar el repositorio:
    ```bash
-   git clone <url-del-repo>
+   git clone https://github.com/facut1no/TRABAJO-PRACTICO-POO.git
    cd POO-TP
    ```
 2. Crear un directorio de compilación:
