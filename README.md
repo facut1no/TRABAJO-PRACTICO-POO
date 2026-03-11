@@ -15,8 +15,6 @@ El juego permite simular partidas de la clásica Oca, con:
 - Guardado y carga de partidas.
 - Sonidos y recursos multimedia.
 
-![Foto del tablero](./foto-tablero.png)
-
 El código está dividido en módulos:
 
 - `logica/` &ndash; clases que representan casillas, jugador, tablero y la lógica del juego.
