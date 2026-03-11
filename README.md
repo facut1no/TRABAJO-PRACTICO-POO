@@ -16,7 +16,6 @@ El juego permite simular partidas de la clásica Oca, con:
 - Sonidos y recursos multimedia.
 
 ![Foto del tablero](./foto-tablero.png)
-*Captura de pantalla del tablero de juego (agrega `foto-tablero.png` en la raíz para que se muestre).*
 
 El código está dividido en módulos:
 
