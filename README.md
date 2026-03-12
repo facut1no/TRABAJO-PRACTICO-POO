@@ -17,7 +17,10 @@ El juego permite simular partidas de la clásica Oca, con:
 - Guardado y carga de partidas.
 - Sonidos y recursos multimedia.
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9a426a716aa87f08b9be42f1077041b1eb4b3aed
 El código está dividido en módulos:
 
 - `logica/` &ndash; clases que representan casillas, jugador, tablero y la lógica del juego.
@@ -50,7 +53,7 @@ A modo de resumen rápido:
 
 1. Clonar el repositorio:
    ```bash
-   git clone <url-del-repo>
+   git clone https://github.com/facut1no/TRABAJO-PRACTICO-POO.git
    cd POO-TP
    ```
 2. Crear un directorio de compilación:
