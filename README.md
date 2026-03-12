@@ -6,6 +6,8 @@ Este repositorio contiene la implementación de un juego de la Oca desarrollado 
 
 ## 🧩 Descripción
 
+![Ejemplo del juego](Ejemplo.gif)
+
 El juego permite simular partidas de la clásica Oca, con:
 
 - Tablero interactivo.
@@ -15,8 +17,6 @@ El juego permite simular partidas de la clásica Oca, con:
 - Guardado y carga de partidas.
 - Sonidos y recursos multimedia.
 
-![Foto del tablero](./foto-tablero.png)
-*Captura de pantalla del tablero de juego (agrega `foto-tablero.png` en la raíz para que se muestre).*
 
 El código está dividido en módulos:
 
