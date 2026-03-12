@@ -3,10 +3,10 @@
 Este repositorio contiene la implementación de un juego de la Oca desarrollado como trabajo práctico para la materia Programación Orientada a Objetos (POO). El proyecto está escrito en **C++** utilizando el framework **Qt 6** y está organizado con **CMake**.
 
 ---
+![Ejemplo del juego](Ejemplo.gif)
 
 ## 🧩 Descripción
 
-![Ejemplo del juego](Ejemplo.gif)
 
 El juego permite simular partidas de la clásica Oca, con:
 
@@ -73,14 +73,105 @@ A modo de resumen rápido:
 ## 📁 Estructura del repositorio
 
 ```text
-CMakeLists.txt               # Archivo principal de CMake
-main.cpp                     # Punto de entrada
-logica/                      # Lógica de juego
-...                          # Múltiples subdirectorios por componente
-UI/                          # Ventanas e interfaces Qt
-ManejadorDeSonidos/          # Control de audio
-GestorDeGuardado/            # Guardado de partidas
-...                          # Otros recursos: imágenes, sonidos, etc.
+CMakeLists.txt
+CMakeLists.txt.user
+integrantes.txt
+main.cpp
+Mainwindow.cpp
+Mainwindow.h
+Mainwindow.ui
+POO-TP_es_AR.ts
+README.md
+Recursos.qrc
+build/
+    Desktop_Qt_6_8_3_MinGW_64_bit-Debug/
+        ...
+CasillaUI/
+    casillaui.cpp
+    casillaui.h
+    casillaui.ui
+GestorDeGuardado/
+    GestorDeGuardado.cpp
+    GestorDeGuardado.h
+JugadorUI/
+    jugadorui.cpp
+    jugadorui.h
+    jugadorui.ui
+logica/
+    Casillas/
+        casilla.cpp
+        casilla.h
+        casillacalavera.cpp
+        casillacalavera.h
+        casillacarcel.cpp
+        casillacarcel.h
+        casilladeoca.cpp
+        casilladeoca.h
+        casillajardindeoca.cpp
+        casillajardindeoca.h
+        casillalaberinto.cpp
+        casillalaberinto.h
+        casillanormal.cpp
+        casillanormal.h
+        casillaposada.cpp
+        casillaposada.h
+        casillapozo.cpp
+        casillapozo.h
+        casillapuente.cpp
+        casillapuente.h
+    Dado/
+        dado.cpp
+        dado.h
+    JuegoOca/
+        juegooca.cpp
+        juegooca.h
+    Jugador/
+        jugador.cpp
+        jugador.h
+    Tablero/
+        tablero.cpp
+        tablero.h
+ManejadorDeSonidos/
+    manejadordesonidos.cpp
+    manejadordesonidos.h
+Nueva carpeta/
+PantallaAjusteDePartida/
+    ConfiguracionJuego.h
+    PantallaAjusteDePartida.cpp
+    PantallaAjusteDePartida.h
+    PantallaAjusteDePartida.ui
+PantallaFinal/
+    pantallafinal.cpp
+    pantallafinal.h
+    pantallafinal.ui
+PantallaMenu/
+    PantallaMenu.cpp
+    PantallaMenu.h
+    PantallaMenu.ui
+PantallaPartida/
+    notificacion.cpp
+    notificacion.h
+    notificacion.ui
+    PantallaPartida.cpp
+    PantallaPartida.h
+    PantallaPartida.ui
+PantallaPausa/
+    pantallapausa.cpp
+    pantallapausa.h
+    pantallapausa.ui
+PantallaTransicion/
+    pantallatransicion.cpp
+    pantallatransicion.h
+    pantallatransicion.ui
+partidasGuardadas/
+Recursos/
+    Imagenes/
+        Casillas/
+    Sonidos/
+TableroUI/
+    tableroui.cpp
+    tableroui.h
+    tableroui.ui
 ``` 
 
 ---
